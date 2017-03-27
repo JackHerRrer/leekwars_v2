@@ -47,7 +47,7 @@ function importFiles(event) {
                             type: "POST",
                             dataType: "json",
                             async: false,
-                            data: {folder_id: "0", token: "$"},
+                            data: {folder_id: "0", v2: "false", token: "$"},
                             success: function(result) {
                                 var ai = result.ai;
                                 $.ajax({
